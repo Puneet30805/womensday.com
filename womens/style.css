@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Calligraffitti", cursive;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+body
+{
+   background-color: #e8908e;
+}
+
+.main-div
+{
+    height:530px ;
+    width: 80%;
+    background: #ecced0;
+    position: relative;
+    top: 110px;
+    left: 160px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+.sub-head{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+#heading
+{
+    margin: 38px;
+    margin-right: 54%;
+    color: black;
+    text-decoration:underline;
+    font-size: 30px;
+}
+
+.nav-items
+{
+    margin-left: 18px;
+    color: black;
+}
+#main-head
+{
+    position: absolute;
+    left: 37%;
+    top: 50px;
+    font-size: 40px;
+}
+
+.content{
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.image-container{
+    border-radius: 40px;
+    background-image: url();
+    background-size: cover;
+}
+
+#second-head
+{
+    color: black;
+    font-size: 30px;
+}
+
+#image{
+    position: relative;
+    bottom: 205px;
+    left: 351px; 
+}
+
+#third-head
+{
+    font-size: 28px;
+    color:black;
+    margin-left: 349px;
+}
+
+#writing{
+    position: absolute;
+    bottom: 26px;
+    left: 112px;
+    font-size: 18px;
+    color: black;
+}
+
+.main-div2
+{
+    height: 415px;
+    width: 80%;
+    background: #ecced0;
+    position: relative;
+    left: 160px;
+    top: 164px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#image2{
+    height: 389px;
+    position: relative;
+    left: 617px;
+    top: -90px;
+}
+#second-write{
+    font-size: 33px;
+    color: black;
+    position: relative;
+    top: 177px;
+    left: 77px;
+}
+
+/* .third-div
+{
+    height: 300px;
+    width: 100%;
+    background: white;
+} */
+
+
+.div-third3{
+    height: 338px;
+    width: 100%;
+    background:#ecced0;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p{
+    color: black;
+    font-size: 30px;
+    position: relative;
+    top: 80px;
+}
